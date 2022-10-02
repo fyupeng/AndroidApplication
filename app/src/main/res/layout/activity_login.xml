@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        android:background="@drawable/candle"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.LoginActivity">
+
+    <LinearLayout
+            android:background="#80FFFFFF"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:orientation="vertical"
+            android:layout_width="350dp"
+            android:layout_height="460dp">
+
+
+        <TextView
+                android:layout_marginTop="50dp"
+                android:textAlignment="center"
+                android:textSize="32dp"
+                android:text="登录页面"
+                android:layout_width="match_parent"
+                android:layout_height="75dp">
+        </TextView>
+
+        <LinearLayout
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="45dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+            <View
+                    android:background="@drawable/people"
+                    android:layout_width="30dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_height="30dp">
+            </View>
+
+            <EditText
+                    android:textSize="15dp"
+                    android:text="1160886967@qq.com"
+                    android:hint="请输入用户名"
+                    android:id="@+id/loginUserName"
+                    android:layout_width="230dp"
+                    android:layout_height="40dp">
+            </EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="45dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+            <View
+                    android:background="@drawable/lock"
+                    android:layout_width="30dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_height="30dp">
+
+            </View>
+
+            <EditText
+                    android:textSize="15dp"
+                    android:text="1305820000103FYp"
+                    android:inputType="textPassword"
+                    android:hint="请输入密码"
+                    android:id="@+id/loginPassword"
+                    android:layout_width="230dp"
+                    android:layout_height="38dp">
+
+            </EditText>
+
+        </LinearLayout>
+
+    <LinearLayout
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="45dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+        <Button
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@color/lightgreen"
+                android:id="@+id/login"
+                android:text="登录"
+                android:layout_marginLeft="20dp"
+                android:layout_width="150dp"
+                android:layout_height="35dp">
+
+        </Button>
+        <Button
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@color/lightgreen"
+                android:id="@+id/goRegister"
+                android:text="前往注册"
+                android:layout_marginLeft="20dp"
+                android:layout_width="150dp"
+                android:layout_height="35dp">
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="45dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+        <TextView
+                android:id="@+id/goUpdatePwd"
+                android:gravity="center_vertical|right"
+                android:textSize="15dp"
+                android:textColor="@color/darkseagreen"
+                android:text="＊修改密码"
+                android:layout_gravity="right"
+                android:layout_width="150dp"
+                android:layout_height="30dp">
+        </TextView>
+        <TextView
+                android:id="@+id/goWebSide"
+                android:gravity="center_vertical|right"
+                android:textSize="15dp"
+                android:textColor="@color/darkseagreen"
+                android:text="＊前往网页端"
+                android:layout_gravity="right"
+                android:layout_width="150dp"
+                android:layout_height="30dp">
+        </TextView>
+
+        <TextView
+                android:id="@+id/goEmail"
+                android:gravity="center_vertical|right"
+                android:textSize="15dp"
+                android:textColor="@color/darkseagreen"
+                android:text="＊联系开发者"
+                android:layout_gravity="right"
+                android:layout_width="150dp"
+                android:layout_height="30dp">
+        </TextView>
+    </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

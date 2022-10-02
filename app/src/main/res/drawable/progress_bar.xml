@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@android:id/background">
+<shape>
+    <corners android:radius="5dip"/>
+    <gradient
+            android:angle="0"
+            android:centerColor="#c0FFFFFF"
+            android:centerY="0.75"
+            android:endColor="#c0FFFFFF"
+            android:startColor="#c0FFFFFF"/>
+</shape>
+</item>
+        <!--类似于视频缓冲未播放状态时的进度颜色-->
+<item android:id="@android:id/secondaryProgress">
+<clip>
+    <shape>
+        <corners android:radius="5dip"/>
+        <gradient
+                android:angle="0"
+                android:centerColor="#c0FFFFFF"
+                android:centerY="0.75"
+                android:endColor="#c0FFFFFF"
+                android:startColor="#c0FFFFFF"/>
+    </shape>
+</clip>
+</item>
+<item android:id="@android:id/progress">
+<clip>
+    <shape>
+        <corners android:radius="5dip"/>
+        <gradient
+                android:angle="0"
+                android:endColor="#008E00"
+                android:startColor="#90E390"/>
+    </shape>
+</clip>
+</item>
+</layer-list>
